@@ -1,0 +1,24 @@
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}
+
+@keyframes piscar {
+    0% {
+      color: rgb(255, 73, 73);
+    }
+    80% {
+        color: rgb(200, 42, 193);
+    }
+
+    100% {
+        color: rgb(255, 73, 73);
+    }
+  }
+  
+.pausadoPiscando {
+    animation: piscar 3s infinite;
+}

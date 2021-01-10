@@ -1,0 +1,31 @@
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #9e9e9e;
+}
+
+.btn_eq {
+    background: rgb(78, 158, 211);
+}
+
+.btn_eq:hover {
+    background: rgb(27, 139, 209);
+}
